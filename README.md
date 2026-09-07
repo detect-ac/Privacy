@@ -1,192 +1,142 @@
-# Terms of Service
+# Privacy Policy
 
-## Introduction
-These Terms of Service ("Terms") govern your access to and use of the Detect website, software, digital content, and related services (the "Services") provided by DETECT SOLUTIONS LTD, a company registered in England and Wales under company number 16079772, with its registered office at 167-169 Great Portland Street, London, England, W1W 5PF ("Detect", "we", "us").
+## Overview
+Protecting personal data is a priority for us. This Privacy Policy explains what personal information we collect, why we collect it, the legal bases we rely on, who we share it with, how long we keep it, and the rights available to you.
 
-By accessing or using the Services, you agree to be bound by these Terms. If you do not agree, you must not use the Services.
+This Policy complements our Terms of Service and End-User License Agreement, and applies to our Website and the Detect Tool.
 
-Detect provides a forensic scanning tool that examines a device for indicators of cheat-related or unauthorised software. This includes examining the file system and the contents of files on disk (including pattern matching using YARA rules), event logs, the registry, Amcache, SRUM, Windows system databases (such as windows.db), running and installed services and processes, and other Windows artifacts, as described more fully in our Privacy Policy. Detect then delivers a filtered list of results to the customer who initiated the scan via a web panel. Detect offers Personal and Enterprise Plans. Each Plan requires a valid Licence to access the Services.
+## 1) Who We Are
+The data controller for account, billing and website data is DETECT SOLUTIONS LTD, a company registered in England and Wales under company number 16079772, with its registered office at 167-169 Great Portland Street, London, England, W1W 5PF.
 
-## 1) Definitions
-**"Customer", "Operator", "you"** means the account holder or person who purchases a Licence, creates scan sessions and receives scan results. **"Scanned User"** means an individual whose device is scanned by the Software. **"Scan Data"** means technical and forensic data collected from a Scanned User's device. **"Licence"** means the right to use the Services as set out in these Terms.
+We are registered with the UK Information Commissioner's Office (ICO), registration number ZB918650.
 
-## 2) Eligibility and Registration
-You must be at least 16 years old to use the Services. Users aged 16 or 17 must have parental or guardian consent.
+Our data protection contact is Benjamin Edward Warner-Deards, who can be reached at detect.ac@detect.ac.
 
-You confirm that all information provided during registration is accurate, complete, and kept up to date.
+## 2) Terminology
+**Website (also "detect.ac", "the Site")** - https://detect.ac/, including its pages, account areas, purchase portals, customer support and related services.
 
-## 3) International Use
-The Services are offered for global use and may be accessed by users worldwide.
+**Detect Account** - A user-created account that grants access to the Website and enables use of the Detect Tool.
 
-By using the Services, you acknowledge that you are responsible for understanding and complying with any laws, regulations, or obligations applicable to you in your place of residence or use, including any laws governing the monitoring or scanning of devices and personal data.
+**Detect Tool (also "Scan Tool")** - Detect's proprietary forensic software that scans a device's hardware and software for indicators of cheat-related or unauthorised software.
 
-Detect operates from the United Kingdom and provides the Services in accordance with UK law. Mandatory consumer protections that apply to you under local law remain unaffected.
+**Operator / Customer** - The account holder who creates a scan session and receives scan results. Scanned User - the individual whose device is scanned. Scan Data - the forensic data collected from a Scanned User's device. IP Address - a unique numeric label assigned to a device on a network.
 
-Detect reserves the right to restrict or limit access to the Services in specific regions where required to comply with legal or regulatory obligations.
+## 3) Our Roles (Controller and Processor)
+We act in two distinct roles depending on the data:
 
-## 4) Account Security
-You are responsible for maintaining the confidentiality and security of your account credentials.
+**Data Controller:** for account registration data, login data, billing/transaction data and general Website data, we determine how and why the data is processed.
 
-All activity conducted through your account is deemed to be authorised by you, including activity resulting from unauthorised access.
+**Data Processor:** for Scan Data collected from a Scanned User's device, we act on behalf of the Operator who initiated the scan. In that case the Operator is the controller and is responsible for the lawful basis for scanning. We process Scan Data only to perform the scan, filter the results and deliver them to the Operator, and as required by law. Operators are contractually required to have a valid lawful basis and any necessary authority or consent to scan.
 
-Account compromise does not constitute grounds for refunds, chargebacks, or reversal of enforcement actions.
+## 4) Data Collected via the Detect Tool (Scan Data)
+The Detect Tool performs a forensic examination of the scanned device and may access, read, collect and analyse the following:
 
-## 5) Prohibited Use
-You must not misuse the Services. Prohibited conduct includes, but is not limited to: reverse engineering, decompiling or disassembling the Software; bypassing or disabling safeguards; assisting cheat development; self testing exploits; self-scanning (scanning your own device within a session you created, or otherwise scanning yourself to test, probe or defeat detection); impersonation; harassment; automated or bulk access; interference with service integrity; tampering with or falsifying scan inputs or results; or attempting to evade detection systems.
+Operating system, hardware and configuration information about the scanned device.
 
-You must not use the Services to scan any device or person you are not lawfully entitled to scan, or for unlawful surveillance, stalking, harassment or any purpose that infringes another person's rights.
+The file system, including file names, paths, sizes, timestamps, hashes, signatures and metadata, and the contents of certain files (for example, application and browser history files), used to identify cheat-related or unauthorised software, alternate accounts and related misuse.
 
-**Self-scanning is prohibited.** The first two self-scans will result in warnings; the third self-scan results in a permanent account ban. Violations of these Terms may result in suspension or permanent banning without refund.
+The contents of files stored on disk, which are scanned for known patterns and signatures using pattern-matching technology (including YARA rules) to detect cheat-related or malicious content. Although file contents are accessed to perform this matching, we are designed to surface only relevant indicators and not to retain or report unrelated personal content.
 
-## 6) Licence Grant and Restrictions
-Licences are non exclusive, revocable, non transferable, and granted solely for use in accordance with these Terms.
+Windows artifacts and system data sources, including event logs, the registry, Amcache, SRUM (System Resource Usage Monitor), Windows system databases (such as windows.db), prefetch and similar execution, usage and connection-history artifacts. These may include records relating to connected devices (such as USB devices), which are derived from the registry and event logs.
 
-Enterprise Licences permit sublicensing only to the extent expressly purchased and documented. Demonstration, resale, sharing, or pooling of licences remains prohibited unless explicitly authorised.
+Information about installed and running services and processes, including their names, loaded modules, in-memory strings and related attributes.
 
-## 7) Customer Responsibilities and Warranties (Scanning Others)
-Where you use the Services to scan a Scanned User, you acknowledge that, in respect of that Scan Data, you act as the **data controller** and Detect acts as your **data processor** (see section 11). You represent, warrant and undertake that:
+Other technical or forensic indicators relevant to detecting cheating, alternate accounts, evasion or related misuse.
 
-(a) you have a valid lawful basis under applicable data protection law to scan the Scanned User and to process the resulting Scan Data;
+Device IP Address, used temporarily during scans to detect self-scans, operate the session and enforce our Terms of Service.
 
-(b) you have the authority and any necessary permissions or consents to initiate the scan, and you will ensure the Scanned User is appropriately informed;
+## 5) Data Collected from Our Website
+**User Registration Details:** when a Detect Account is created, the email address and password are used to manage account access, validate identity, send service updates and provide support.
 
-(c) you will not knowingly scan any person under the age of 16, and will obtain parental or guardian consent where a Scanned User is aged 16 or 17;
+**Session Data:** when a scan session is created, the initiating IP Address is stored against that session and is used to operate the session, detect self-scanning (where a session creator scans their own device, which is prohibited) and enforce our Terms of Service. It is deleted when the session ends or expires (sessions expire after 24 hours).
 
-(d) you will use scan results lawfully, fairly and proportionately, and will make your own independent assessment before taking any action;
+**Transaction Details:** information necessary to complete purchases. Payment card details are processed and stored by Stripe, our payment processor, and not by us.
 
-(e) where you choose to make a scan public or share a link to it (see section 7A), you have a valid lawful basis and any necessary consent to publish or disclose the relevant Scan Data; and
+## 6) How We Use Information and Our Legal Bases
+We process personal data on the following legal bases under the UK GDPR:
 
-(f) you will comply with all applicable laws in your use of the Services and the results.
+**Contract** - to create and operate your account, provide the Services and process purchases.
+**Consent** - for scanning carried out via the Detect Tool (you consent in-tool before a scan), withdrawable at any time.
+**Legitimate interests** - to secure our Services, prevent abuse, enforce our Terms, support fair play, and operate our business, balanced against your rights.
+**Legal obligation** - to comply with law, including responding to lawful requests.
+We practise data minimisation and collect only what is needed to provide the Services. We do not sell, rent or market your personal data, and we do not share it except with the recipients listed below, where you or an Operator choose to share data using features of the Services (such as public scans), or where legally required.
 
-## 7A) Sharing and Public Scans
-Detect does not sell, rent or disclose Scan Data to any third party, except to deliver results to the Operator who initiated the scan and to use the sub-processors described in our Privacy Policy, or where required by law.
+## 7) Who We Share Data With (Recipients and Sub-processors)
+**Operators:** filtered scan results are delivered to the Operator who created the relevant scan session.
 
-The Services may allow an Operator to make a scan publicly accessible and to generate and share a link to it. Detect does not itself publish scans. Where you choose to make a scan public or share such a link, **you do so entirely at your own discretion and risk and as the data controller**. You acknowledge that a public scan may be accessible to anyone who has the link, that you are solely responsible for that disclosure and its consequences, and that Detect provides this functionality only as a processor acting on your instruction. You are responsible for deleting or making private any scan you no longer wish to share.
+**Public scans (Operator-initiated):** Detect does not itself publish or share scan results. However, an Operator may choose to make a scan publicly accessible and share a link to it, in which case the results may be viewable by anyone who has the link. The Operator acts as the data controller for that disclosure and is solely responsible for it; Detect provides this functionality only as a processor acting on the Operator's instructions.
 
-An active scan that is not saved is automatically deleted when its session times out, 24 hours after it is created. Scans that you save as saved scans persist until you delete them or make them private.
+**Payment processor:** all payments are handled by Stripe, which processes your payment information under its own privacy policy. We do not store full payment card details.
 
-## 8) Nature of Results; No Determination of Guilt
-The Software reports technical indicators only. Scan results are **indicative and not determinative** and do not, by themselves, prove that any person has cheated or engaged in wrongdoing. Detect does not make, and is not responsible for, any decision taken on the basis of results.
+Cloudflare provides web security, content delivery and protection for our Website and services.
 
-Any decision or action (including warnings, bans or sanctions) is taken solely by the Customer at its own discretion and risk. Detect gives no warranty that results are complete, accurate, or free from false positives or false negatives.
+**Hosting:** our primary servers are located in the United Kingdom.
 
-## 9) Termination and Bans
-Detect may suspend or permanently ban accounts at its discretion for violations of these Terms or to protect the integrity of the Services.
+We may also disclose data where required by law, regulation, or to protect our rights or the safety of others.
 
-Account bans do not automatically cancel active subscriptions.
+## 8) International Transfers
+Our primary data storage is in the United Kingdom. Some sub-processors (for example Cloudflare and payment providers) may process data outside the UK. Where personal data is transferred outside the UK, we rely on appropriate safeguards, such as the UK International Data Transfer Agreement (IDTA), the UK Addendum to the EU Standard Contractual Clauses, or transfers to jurisdictions covered by UK adequacy regulations.
 
-Banned users remain responsible for cancelling any active subscription.
+## 9) Data Retention
+The raw underlying data captured during a scan is processed and permanently deleted within one hour (60 minutes).
 
-**No refund on ban.** If your account is suspended or banned, you are not entitled to a refund of any Licence already purchased, **whether or not the licence key has been redeemed, activated or used**.
+Filtered scan results delivered to an Operator are retained in the Operator's web panel under the Operator's control. An active scan that is not saved is automatically deleted when its session times out, 24 hours after it is created. Otherwise, results are retained until the Operator deletes them (for example by creating a new session or using the delete function), or keeps them as a saved scan (which persists until the Operator deletes it or makes it private). As processor, we retain such results according to the Operator's instructions.
 
-**Cancelling after a ban.** Following a ban you remain responsible for cancelling your own subscription, and you are **expressly prompted to do so on the ban screen** shown when you access your account. Cancellation must be completed through the Stripe customer billing portal. If you fail to cancel and are subsequently billed for one or more renewals after the ban date, you may contact support, and Detect will refund **only those Licences purchased after the ban date that have not been redeemed, activated or used**. Licences purchased on or before the ban date, and any Licence that has been redeemed, activated or used, remain non-refundable.
+Session IP data is held only for the life of the scan session and is deleted when the session ends or expires (sessions expire after 24 hours). Account and transaction data is retained for as long as your account is active and thereafter only as required for legal, accounting or fraud-prevention purposes.
 
-## 10) Subscriptions, Billing, Cancellations, and Refunds
-Certain Products are sold on a recurring subscription basis and renew automatically unless cancelled prior to the renewal date.
+## 10) Your Rights Under UK GDPR
+Subject to applicable law, you have the right to:
 
-You are responsible for cancelling your subscription if you no longer wish to be billed. Cancellation is available via the Stripe customer billing portal or by contacting support with valid proof of purchase.
+**Access** - request copies of your personal data.
+**Correction** - request correction of inaccurate data.
+**Deletion** - request erasure where data is no longer required.
+**Restriction** - request limited processing in certain circumstances.
+**Objection** - object to processing based on your situation.
+**Data portability** - request transfer of your data to another organisation.
+**Withdraw consent** - where we rely on consent, at any time.
+We do not charge a fee to exercise these rights and we respond within one month. Where we act as processor for Scan Data, we may direct your request to, or act on the instructions of, the relevant Operator (controller).
 
-**Valid cancellation and proof.** A subscription is only treated as cancelled where cancellation has been completed through the Stripe customer billing portal (or in writing to support and confirmed by us). You must retain proof of that cancellation, such as the Stripe confirmation or cancellation email. To rely on "subscription cancelled" as a basis for any refund or dispute, you must provide that proof. In the absence of such proof, no cancellation will be deemed to have occurred. **Initiating a chargeback or bank dispute does not constitute, and will never be accepted as, cancellation of a subscription;** cancellation must be actioned through the Stripe portal and cannot be substituted by a payment reversal.
+To exercise these rights, contact Benjamin Edward Warner-Deards at detect.ac@detect.ac or via https://detect.ac/discord.
 
-Detect relies on third party payment processors. Subscription renewals and licence key delivery may continue until cancellation is successfully completed.
+You also have the right to lodge a complaint with the ICO at ico.org.uk if you are unhappy with how we have handled your data.
 
-**Delivery and receipt of the Product.** The Product is a digital licence key delivered electronically. Delivery of the licence key to the email address associated with your purchase constitutes **full receipt and supply of the Product**, whether or not the key is subsequently redeemed, activated or used, and whether or not you open or read the email. For the purpose of any chargeback, payment dispute or claim of "product not received", the Product is deemed received at the point the licence key is sent to your email. A claim that the Product was not received will not be accepted where a licence key was delivered to your purchase email.
+## 11) Data Security
+Data is processed and stored on secure servers with appropriate technical and organisational measures designed to protect against unauthorised access, loss or misuse. No system can be guaranteed perfectly secure, but we take reasonable steps to safeguard your data.
 
-**Non-delivery of a licence key.** Where a licence key is not delivered to your purchase email, whether because of technical error, payment processor delay, email delivery failure or any similar cause, **it is your responsibility to contact support and report the delivery error** so that the key can be issued or re-sent. Detect cannot resolve a delivery failure it has not been made aware of, and no claim arises in respect of a non-delivery you have not reported to us. Once you have contacted us, Detect will use reasonable efforts to issue or re-send the key promptly. **No refund, compensation, credit or other remedy is available in respect of non-delivery unless more than three (3) working days have passed since you contacted support to report the delivery error and the licence key still has not been delivered.** Any claim for refund, compensation or chargeback on the basis of non-delivery that is made before that period has elapsed, or without having first contacted support, will not be accepted. **"Working days"** means Monday to Friday, excluding public holidays in England and Wales. Before contacting support you must check the spam or junk folder of the email address used at purchase and confirm that the address you provided was correct and accessible; a failure of delivery caused by an incorrect, full or inaccessible email address supplied by you does not constitute non-delivery by Detect and does not give rise to any claim. This paragraph does not affect any statutory rights that cannot lawfully be excluded.
+## 12) Children's Data
+The Services are not intended for anyone under the age of 16, and we do not knowingly collect data from anyone under 16. Users aged 16 or 17 require parental or guardian consent. If you believe a person under 16 has used the Services or been scanned, contact us so we can take appropriate action.
 
-If your account is banned, billing continues unless cancellation occurs. Continued billing following a ban does not constitute an error.
+## 13) Changes to This Policy
+We may modify, update or replace this Privacy Policy at any time, at our sole discretion and without prior notice to you. Changes take effect when published on this page and apply from that point. Your continued use of the Website or the Detect Tool after a change constitutes acceptance, and it is your responsibility to review the current version. Nothing in this clause affects any mandatory rights that cannot be waived under applicable law.
 
-**Refund policy.** Detect supplies digital content and licence keys for immediate use. Our refund position is as follows:
+## 14) Detect Discord Bot
+We operate a Discord bot (the "Bot") within our official Discord community server to provide moderation, support ticketing, account linking and related community features. For personal data processed through the Bot, DETECT SOLUTIONS LTD acts as the data controller. Your use of Discord is separately governed by Discord's own Privacy Policy and Terms of Service.
 
-(a) **Unredeemed licences:** a Licence may only be refunded if it has not been redeemed, activated or otherwise used. To request a refund of an unredeemed Licence, you must contact us **within the access period of that Licence** (for example, within one month for a one-month Licence). Requests made after the Licence's access period has elapsed will not be accepted, even if the Licence was never redeemed. This time limit prevents the repeated or backdated refunding of Licences purchased long ago.
+Depending on how you interact with the server, the Bot may process:
 
-(b) **Redeemed licences:** once a Licence is redeemed or activated, supply of the digital content begins immediately and the Licence is **non-refundable**. By redeeming or activating a Licence you **expressly consent** to the immediate supply of digital content and you **acknowledge that you thereby lose your statutory 14-day right to cancel/withdraw** under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013. **It does not matter who redeemed the Licence**: once a Licence has been redeemed or activated by any person, whether by you or by someone you gave, sold or transferred it to, it is non-refundable. You are responsible for safeguarding your Licence keys.
+**Discord identifiers and profile data** - your Discord user ID, username, avatar, server (guild) ID, roles and nickname, used to operate commands, manage roles and identify you within the server.
+**Message content** - to provide automated moderation (scam detection and prohibited-link enforcement), auto-responses and command handling, the Bot receives messages sent in the server. Images and attachments may be temporarily downloaded and analysed using optical character recognition (OCR) to detect scam content; these temporary files are deleted immediately after analysis and are not retained.
+**Support tickets** - when you open a ticket we store the ticket metadata, its contents and a transcript, along with any tags, topics and the staff member handling it, to provide and audit support.
+**Account linking** - when you use the link command we process a one-time linking token to connect your Discord account to your Detect Account, and we record link attempts (Discord user ID, server ID, token, timestamp and outcome) for security and support.
+**Verification ("PC Check") data** - where you take part in a PC Check, we store a screenshot, a remote-access (AnyDesk/Rustdesk) code, notes and the outcome, together with a competitive rating (ELO), rank and match history. Remote-access codes are used only to conduct that check.
+**Moderation and community records** - bans, mutes, timeouts, strikes, probation, reminders, giveaway entries, reaction-role selections and similar records, including reasons and durations, used to enforce our server rules and operate community features.
+**How we use it and our legal bases:** we process Bot data to operate the server and its features (contract and legitimate interests), to keep the community safe and prevent abuse (legitimate interests), to link accounts and issue licences (contract), and to comply with the law (legal obligation).
 
-(c) The above does not affect your legal rights where the Services are faulty, not as described, or not of satisfactory quality, or any other rights that cannot lawfully be excluded. Detect may also issue discretionary refunds in limited circumstances. Refund eligibility may vary depending on jurisdiction and applicable consumer law.
+**Sharing:** Bot data is processed on our own infrastructure and, for account linking, licence generation and platform ban checks, is exchanged with the detect.ac platform described elsewhere in this Policy. Message content and other interactions necessarily pass through Discord's platform. We do not sell your personal data.
 
-(d) **Refunds claimed on the basis of a cancelled subscription:** where you seek a refund on the ground that you cancelled your subscription, you must have cancelled through the Stripe customer billing portal and must provide proof of that cancellation as described above. Where no such proof is provided, or where you attempt to reverse a charge through your bank or card provider instead of cancelling, this will not be treated as a valid cancellation and will not be grounds for a refund. Delivery of the licence key to your purchase email counts as receipt of the Product, and you may not claim after such delivery that the subscription was cancelled or the Product not received in order to obtain a refund or chargeback.
+**Retention:** persistent records (such as tickets and transcripts, link logs, moderation records and PC Check data) are retained only for as long as needed for the relevant purpose and our legitimate interests, and are then deleted. Temporary scan/OCR files are deleted immediately after processing and cached data is short-lived. You may request deletion as described in "Your Rights Under UK GDPR" above.
 
-(e) **Banned accounts:** a ban does not entitle you to a refund of any Licence already purchased, **whether or not the licence key has been redeemed, activated or used**. You remain responsible for cancelling your subscription after a ban (you are prompted to do so on the ban screen). If you do not cancel and are billed for renewals after the ban date, Detect will, on request to support, refund only Licences purchased after the ban date that have not been redeemed, activated or used. See Section 9 for full details.
+**Children:** the Bot and server are subject to the same age restrictions set out in "Children's Data" above.
 
-For users outside the United Kingdom, statutory cancellation or refund rights may differ. You acknowledge that you are purchasing digital services from a UK based company governed by UK law, subject to any mandatory consumer protections applicable in your jurisdiction.
-
-Nothing in these Terms limits or excludes rights that cannot be lawfully waived.
-
-## 11) Data Protection and Processing
-Detect processes personal data in accordance with its [Privacy Policy](https://detect.ac/privacy) and applicable data protection law, including the UK GDPR and the Data Protection Act 2018.
-
-In respect of account, billing and website data, Detect acts as a **data controller**. In respect of Scan Data collected from Scanned Users, Detect acts as a **data processor** on behalf of the Customer (the controller), and will process such data only on the Customer's documented instructions and as required by law. This section, together with the Privacy Policy, forms the data processing terms between you and Detect; where you require a separate Data Processing Agreement, contact us.
-
-By using the Services, you acknowledge that personal data may be processed and stored in the United Kingdom and, through our sub-processors (including Cloudflare and our payment processors), may be transferred internationally. Where personal data is transferred outside the UK, appropriate safeguards (such as the UK International Data Transfer Agreement or Addendum to the EU Standard Contractual Clauses) are applied.
-
-## 12) Indemnity
-You agree to indemnify and hold harmless Detect, its directors, officers and personnel against any claims, losses, damages, liabilities, fines and reasonable costs (including legal fees) arising out of or in connection with: (a) your breach of these Terms; (b) your use of the Services or scan results; (c) your scanning of any Scanned User without a valid lawful basis, authority or required consent; or (d) your violation of any law or the rights of any third party.
-
-## 13) Chargebacks and Payment Disputes
-Fraudulent, abusive, or bad faith chargebacks constitute a breach of these Terms and may result in immediate account termination and licence revocation.
-
-Legitimate disputes should be raised with support before initiating a chargeback.
-
-Delivery of a licence key to the email address associated with your purchase constitutes **full receipt and supply of the Product** for chargeback and payment dispute purposes, regardless of whether the key is redeemed, activated or used. Accordingly, a chargeback or dispute asserting that the Product was "not received" is not a valid basis for reversal where a licence key was delivered to your purchase email.
-
-Where a licence key was genuinely not delivered, it is your responsibility to report the delivery error to support, and the non-delivery process and the three (3) working day period set out in Section 10 apply. That period runs from the point you contact support, not from the date of purchase. A chargeback or payment dispute raised on the basis of non-delivery before that period has elapsed, or without first contacting support to have the key issued or re-sent, will be treated as a bad faith dispute and contested accordingly.
-
-A chargeback or bank dispute is not a means of cancelling a subscription and will not be accepted as cancellation. Where you claim to have cancelled a subscription, only cancellation completed through the Stripe customer billing portal, evidenced by proof of that cancellation, will be recognised. Absent such proof, the subscription is treated as active and the associated charges as valid, and any resulting chargeback will be treated as a bad faith dispute and contested accordingly.
-
-## 14) Pricing and Taxes
-Prices may change for future purchases. Existing subscriptions retain their price for the current billing period.
-
-Prices do not include local taxes, duties, or levies unless stated otherwise. You are responsible for any applicable taxes imposed by your jurisdiction.
-
-## 15) Intellectual Property
-All software, systems, content, trademarks, and documentation are the exclusive property of Detect or its licensors.
-
-"detect.ac" is a registered trademark of DETECT SOLUTIONS LTD (UK Intellectual Property Office registration number UK00004243888). You must not use our name, logo or trademarks without our prior written permission.
-
-No rights are granted except as expressly stated in these Terms.
-
-## 16) Disclaimer of Warranties
-To the fullest extent permitted by law, the Services are provided "as is" and "as available" without warranties of any kind, whether express or implied, including any implied warranties of satisfactory quality, fitness for a particular purpose, accuracy or non-infringement. Detect does not warrant that the Services will be uninterrupted, error-free, or that results will be accurate or complete. This section does not exclude warranties or rights that cannot lawfully be excluded, including those of consumers.
-
-## 17) Limitation of Liability
-To the fullest extent permitted by law, Detect is not liable for any indirect, incidental, special, or consequential losses, including loss of profits, data, goodwill or business interruption, or for any decision or action taken by a Customer or third party based on scan results.
-
-Detect's total aggregate liability arising out of or in connection with the Services and these Terms shall not exceed the greater of (a) the total amounts paid by you to Detect in the twelve (12) months preceding the event giving rise to the claim, or (b) GBP 100.
-
-Nothing in these Terms limits or excludes liability that cannot lawfully be limited or excluded, including liability for death or personal injury caused by negligence, for fraud or fraudulent misrepresentation, or for any other liability that cannot be excluded under applicable law.
-
-## 18) Local Law Exceptions
-Some jurisdictions do not allow certain exclusions or limitations of liability. Where such laws apply, these limitations apply only to the maximum extent permitted.
-
-## 19) Force Majeure
-Detect is not liable for any failure or delay in performance caused by events beyond its reasonable control, including outages, attacks, acts of third-party providers, natural events, or government action.
-
-## 20) Assignment
-You may not assign or transfer your rights under these Terms without our prior written consent. Detect may assign or transfer its rights and obligations to an affiliate or in connection with a merger, acquisition or sale of assets.
-
-## 21) Changes to These Terms
-Detect may modify, update or replace these Terms (and the Privacy Policy and EULA) at any time, at its sole discretion and without prior notice to you. Changes take effect when published on this page or otherwise made available, and apply to your use of the Services from that point. Your continued use of the Services after a change constitutes acceptance, and it is your responsibility to review the current version. Nothing in this clause affects any mandatory statutory or consumer rights that cannot be waived under applicable law.
-
-## 22) Severability and Entire Agreement
-If any provision of these Terms is held unenforceable, the remaining provisions remain in full force and effect. These Terms, together with the Privacy Policy and EULA, constitute the entire agreement between you and Detect regarding the Services.
-
-## 23) Governing Law and Jurisdiction
-These Terms are governed by and construed in accordance with the laws of England and Wales.
-
-The courts of England and Wales have exclusive jurisdiction over disputes arising from these Terms, except where mandatory consumer protection laws require otherwise.
-
-## 24) Language
-These Terms are written in English. Any translations are provided for convenience only. In the event of inconsistency, the English version prevails.
-
-## 25) Contact and Company Details
+## 15) Contact
 DETECT SOLUTIONS LTD
 
 Registered in England and Wales, company number 16079772
 
 Registered office: 167-169 Great Portland Street, London, England, W1W 5PF
 
-Contact / data protection contact: Benjamin Edward Warner-Deards
+Data protection contact: Benjamin Edward Warner-Deards
 
-Email: detect.ac@detect.ac
+Email: detect.ac@detect.ac · https://detect.ac/discord
 
 Last updated: June 2026
